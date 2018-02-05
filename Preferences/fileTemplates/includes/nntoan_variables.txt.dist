@@ -1,0 +1,2 @@
+#set($company = "MyCompany (https://www.company.tld)")
+#set($author = "Author <user@email.tld>")
