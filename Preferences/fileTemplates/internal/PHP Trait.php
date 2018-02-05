@@ -3,7 +3,6 @@
 #parse("nntoan_header_php.php")
 #if (${NAMESPACE})
 namespace ${NAMESPACE};
-
 #end
 
 trait ${NAME}
