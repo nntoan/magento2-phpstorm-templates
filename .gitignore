@@ -1,4 +1,5 @@
 .idea
 .DS_Store
 /builds
+/nntoan_2m_templates.jar
 /Preferences/fileTemplates/includes/nntoan_variables.txt
