@@ -10,11 +10,19 @@ All other templates are custom ones with a naming prefix `2M` in order to make t
 
 ## Installation
 
-0. Just download the `.jar` file and import it in your PHPStorm `File -> Import Settings`
+1. Clone the repository to your machine
 
-    * `https://github.com/nntoan/magento2-phpstorm-templates/releases/<version>/nntoan_2m_templates.jar`
+    * `git clone https://github.com/nntoan/magento2-phpstorm-templates`
 
-0. Set your personal configuration for comments on PHPStorm `Preferences -> Editor -> File and Code Templates -> nntoan_variables`
+2. Copy `fileTemplates/includes/nntoan_variables.txt.dist` to `fileTemplates/includes/nntoan_variables.txt`
+
+3. Copy or symlink all folders inside `<repo>/Preferences` to:
+
+    * Windows: `<your home directory>/.<product name><version number>/config/`
+    * Linux: `~\.<product name><version number>/config/`
+    * Mac OS: `~/Library/Preferences/<product name><version number>/`
+
+4. Set your personal configuration for comments on PHPStorm `Preferences -> Editor -> File and Code Templates -> nntoan_variables`
 
     ![Comments settings](docs/img/comments_settings.png)
 
